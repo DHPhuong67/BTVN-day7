@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script>
+		var abc = 0;
+		document.write("Từ 0->100, các số chia hết cho 3 và 5 là: ")
+		for (var i = 0; i <= 100; i++){
+			if(i%3==0 && i%5==0){
+				document.write(" " +i);
+			    abc += i;
+		}
+	}
+	document.write("<br>Tổng các số trên là: "+ abc);
+	</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="BT3.css">
+</head>
+<body>
+	<table border="1" cellspacing="0" width="60%" class="abc">
+		<tbody>
+			<tr>
+				<td id="cuuChuong1">data1</td>
+				<td id="cuuChuong2">data2</td>
+				<td id="cuuChuong3">data3</td>
+				<td id="cuuChuong4">data4</td>
+				<td id="cuuChuong5">data5</td>
+			</tr>
+			<tr>
+				<td id="cuuChuong6">data6</td>
+				<td id="cuuChuong7">data7</td>
+				<td id="cuuChuong8">data8</td>
+				<td id="cuuChuong9">data9</td>
+				<td id="cuuChuong10">data10</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+<script>
+		for (var i = 1; i <= 10; i++) {
+			var text = "";
+			text += "Bảng cửu chương số " + i +"<br>";
+			for(var j= 1; j <= 10; j++){
+               text += i +'x' +j +'=' +i*j+"<br>";
+			}
+			document.getElementById("cuuChuong"+i).innerHTML = text;
+		}		
+</script>
+</html>

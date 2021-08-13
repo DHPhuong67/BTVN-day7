@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+table{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	
+}
+.abc{
+	background-color: black;
+}
+.xyz{
+	background-color: white;
+}
